@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+
+* {
+    font-family: 'Open Sans Condensed', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width: 3%;
+}
+
+.trailerflix-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-align: center;
+}
+.titulo h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    
+}
+
+.trailerflix-img{
+    width: 38%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+
+}
+nav ul a li{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 18px;
+    margin-bottom: 30px;
+    font-size: 18px;
+
+    
+
+}
+nav ul a{
+    text-decoration: none;
+}
+
+a li:hover{
+    color: rgb(255, 53, 53);
+
+}
+
+section {
+    text-align: center;
+    color: white;
+}
+
+
+
+/* card */
+.card {
+    margin: 20px;
+    margin-bottom: 50px;
+    display: inline-flex;
+    text-align: center;
+}
+
+.poster {
+    width: 280px;
+	/* -webkit-box-reflect: below 10px
+    linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.5)); */
+	transition: all 0.7s ease;
+    margin-bottom: 10px;
+}
+
+.poster:hover {
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 0.5s;
+}
+
+.error-contenido {
+    color: red;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    
+}
+
+.emoji-cine {
+    font-size: 3em;
+}
+
+/* texto card */
+
+.contenedor-texto{
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    margin-bottom: 5px;
+}
+.text-amarillo{
+    color: yellow;
+    font-weight: 600;
+    margin-right: 4px;
+}
+.text-white{
+    color: white;
+    margin-left: 4px;
+    font-weight: 600;
+    
+}
